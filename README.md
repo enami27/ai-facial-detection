@@ -15,12 +15,12 @@ To run the facial detection program, execute `python main.py` or `python3 main.p
 This script will open a window displaying the webcam feed. each face detected will be highlighter with green rectangles
 
 ### Key features
-** Real time detection ** : This program captures video from the defaut webcam and processes it in real time
-** Face highlighting ** : Detected faces are highlighted with green rectangles
-** Easy termination ** : press 'q' to close the app
+**Real time detection** : This program captures video from the defaut webcam and processes it in real time
+**Face highlighting** : Detected faces are highlighted with green rectangles
+**Easy termination** : press 'q' to close the app
 
 ### How it works
-** Cascade classifier ** : OpenCV's Cascade classifier uses a pre-trained Haar Cascade model to detect faces [visit the official openCV documentation for more info](https://docs.opencv.org/4.x/db/d28/tutorial_cascade_classifier.html)
+**Cascade classifier** : OpenCV's Cascade classifier uses a pre-trained Haar Cascade model to detect faces [visit the official openCV documentation for more info](https://docs.opencv.org/4.x/db/d28/tutorial_cascade_classifier.html)
 
 ### Limitations and consideration
 Light conditions and visual environment might affects the app's ability to properly detect faces
